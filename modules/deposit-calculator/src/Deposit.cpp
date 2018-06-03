@@ -1,6 +1,6 @@
 // Copyright Volkov Daniel
 
-#include "include/deposit-calculator.h"
+#include "../include/deposit-calculator.h"
 
 Deposit::Deposit(int _Sum, float _percent,
                  int _duration, int type_of_capitalization,

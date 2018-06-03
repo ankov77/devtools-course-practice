@@ -15,7 +15,7 @@ class Deposit {
     // (_Sum сумма вклада, _percent процент годовой,
     // _duration продолжительность вклада(дней),
     // type_of_capitalization тип капитализации
-    // (0-ежегодно, 1-ежемесечно, 2-ежедневно),
+    // (2-ежегодно, 1-ежемесечно, 0-ежедневно),
     // On_the_bill(выплачивать деньги, или пополнять вклад))
     Deposit(int _Sum = 100000, float _percent = 8,
             int _duration = 360, int type_of_capitalization = 0,
